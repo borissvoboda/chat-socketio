@@ -25,7 +25,7 @@ io.on('connection', (socket) => {
     // io.to - sends message to specific socket.id
     io.to(socket.id).emit(
       'privateMessage',
-      'SERVER msg: Hello! Your id is: ' + socket.id
+      'SERVER msg: Hello! Your  id is: ' + socket.id
     );
   });
 });
